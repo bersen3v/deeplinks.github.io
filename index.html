@@ -1,1 +1,18 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Launch App</title>
+</head>
+<body>
+  <h1>Launching App...</h1>
+  <a href="bachar://todo.app">Launch manually</a>
 
+  <script>
+    window.onload = function() {
+      // Попытка открыть диплинк
+      window.location.href = 'bachar://todo.app';
+    };
+  </script>
+</body>
+</html>
